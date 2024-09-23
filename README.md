@@ -15,7 +15,6 @@ Thanks!
 Notes:
 
 Monday Semptember 23 2024:
-###########################################
 
 
 -------------------------------------------
@@ -139,7 +138,7 @@ Monday, September 23, 2024
 1:54 PM
 
 Install via terminal:
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 -------------------------------------------
 
@@ -148,13 +147,13 @@ Install via terminal:
 Monday, September 23, 2024
 2:01 PM
 
-Installed the php
+ Installed the php
 
     • Brew install php. (install via package manager homebrew)
 
-    • php  -v (check the current version of php)
+    • php  -v  (check the current version of php)
 
-    • Update brew &&. Upgrade php.  (this if necessary << updates and upgrades brew and php respectively)
+    • Update brew &&. Upgrade php  (this if necessary << updates and upgrades brew and php respectively)
     
 -------------------------------------------
 
@@ -211,4 +210,31 @@ Section 4 (Instalation for Mac <Apple silicone chips>)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -------------------------------------------
 
+
+23. Starting a New Symfony Project
+
+Monday, September 23, 2024
+9:15 AM
+
+First check if symfony is installed and it works as expected via the terminal command:
+
+    1) Symfony check:requirements
+
+    If everything is correct then we can procced to the next step:
+    
+    2) Create a symfony app 
+    
+        Command : symfony new <name.app> (--version="x.x.x") --webapp. (webapp is because we are creating a webapp).
+    
+!!! Make sure git is installed prior !!!
+
+    3) Start a build in server.
+        a. First check that we are in the app directory (cd /app/directory)
+        b. Then run the command symfony server:start
+        c. Then the server should run and the symfony script will provide a http:// with the local adress of our server.  (ctrl +c to stop the sv)
+
+    Note: By using the command : symfony check:security. We can check for vulnerabilities of our app.
+          By running: symfony console
+
+-------------------------------------------        
 
