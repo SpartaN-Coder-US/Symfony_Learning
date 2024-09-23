@@ -17,6 +17,16 @@ Notes:
 Monday Semptember 23 2024:
 ###########################################
 
+
+-------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Section 1 (The introduction)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------
+
+
 1. Course Outline
 
 Monday, September 23, 2024
@@ -69,8 +79,8 @@ Monday, September 23, 2024
 Simfony is a very mature and stable framework, also it has a very big community. LTS support. Sustainable.
 Rich documentation and also the reputation.
 
-                                            Symfony is utilizing the MVC model. 
-                                                    MODEL VIEW CONTROLLER
+                                     Symfony is utilizing the MVC model. 
+                                            MODEL VIEW CONTROLLER
 
 
 
@@ -106,3 +116,99 @@ After all the changes have been made the controller is sending back the data/inf
 
 
 -------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Section 3 (Instalation for Mac <Apple silicone chips>)    
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------
+
+
+17. Section Intro: Setting up for Mac!
+
+Monday, September 23, 2024
+9:15 AM
+
+We are recommended some of the following tools XAMMP, a docker based repo, Planet scale ( free sub).
+
+-------------------------------------------
+
+18. Installing the Homebrew Package Manager (Prerequisite)
+
+Monday, September 23, 2024
+1:54 PM
+
+Install via terminal:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+-------------------------------------------
+
+19. Installing PHP on Mac
+
+Monday, September 23, 2024
+2:01 PM
+
+Installed the php
+
+    • Brew install php. (install via package manager homebrew)
+
+    • php  -v (check the current version of php)
+
+    • Update brew &&. Upgrade php.  (this if necessary << updates and upgrades brew and php respectively)
+    
+-------------------------------------------
+
+20. Installing Composer on Mac
+
+Monday, September 23, 2024
+2:07 PM
+
+Install composer on mac.
+
+    • Brew install composer (install via homebrew)
+        ○ Brew install composer
+
+    • Composer about (check the installation version)
+    
+-------------------------------------------
+
+21. Installing and Running Docker (MySQL, MailCatcher) on Mac
+
+Monday, September 23, 2024
+2:37 PM
+
+Install docker:
+    
+    -Website link:
+      https://www.docker.com/
+    
+    -Log in or create account 
+
+-------------------------------------------
+
+22. Installing Symfony CLI - Symfony Command Line Interface
+
+Monday, September 23, 2024
+2:54 PM
+
+    • Go to the website: 
+https://symfony.com/download
+
+    • We will be using the homebrew approach:
+    
+        brew install symfony-cli/tap/symfony-cli
+
+    • Restart teminal to make sure we have it running
+
+    • Type: symfony in the terminal to check if it's installed.
+
+
+-------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Section 4 (Instalation for Mac <Apple silicone chips>)    
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------
+
+
