@@ -75,17 +75,7 @@ Rich documentation and also the reputation.
 
 
 
-![alt text](image.png)
-
-
-
-
-
-
-
-
-
-    
+![alt text](/pictures_readme/image.png)
 
     • Is a model of building applications where you separate the part that controls the flow of the application  (THIS BEING THE CONTROLLER)
     • Views: are responsible for generating an output, which is HTML or can be Json data. (Twig)
@@ -113,5 +103,6 @@ Let's  go through the flow of this request:
     • Then after the view is generated, it will be sent back to the controller.
 
 After all the changes have been made the controller is sending back the data/information to the symfony application, which in return it will sent that back to the user browser.
--------------------------------------------
 
+
+-------------------------------------------
