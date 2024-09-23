@@ -16,3 +16,26 @@ Notes:
 
 Monday Semptember 23 2024:
 ###########################################
+
+1. Course Outline
+
+Monday, September 23, 2024
+9:15 AM
+
+Our end goal is a fully functioning application just like "x/facebook/"
+
+    • Controllers and Routing: We will learn how to return a response and define your app's routes.
+
+    • Twig:  We will master twig for front end, covering everything from basic templates to inheritance and control
+
+    · Maker & Profiler: Tools for rapid development and debbuging
+
+    · Doctrine: migrations, fixtures, repositories, and outer entity fetching with param converters to make everything look sharp
+
+    · Forms & UI: symfony forms and tailwind CSS, and even diving into dark and light modes.
+    
+    · Doctrine relations: 1 to 1 / one to many/ many to many
+
+    · Security & Auth:  authorization (Asian voters) and the security component. 
+    
+-------------------------------------------
