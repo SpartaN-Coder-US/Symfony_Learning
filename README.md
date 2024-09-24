@@ -238,3 +238,65 @@ First check if symfony is installed and it works as expected via the terminal co
 
 -------------------------------------------        
 
+24. Symfony Directory Structure Overview
+
+Monday, September 23, 2024
+5:27 PM
+
+---BIN---
+Let's talk about the files inside our framework directory:
+
+Inside of the bin folder we have a file for the console. 
+We can interact with our application through the console.
+Which we can access it with:
+
+`php bin/console' which is the equivalent of ' symfony console' (in the terminal)
+
+Generally we don't put anything inside the bin directory.
+
+---config---
+This is where all the configuration files reside and they are mostly YAML files.
+
+---public---
+Contains an entry point to your application. (index.php)
+
+It can also contain assets:  (!!! Which we want publicly on the internet!!!)
+    -style sheets
+    -java scripts
+    -images
+    -other assets
+
+---src---
+Contains all the business logic of our application (most of the code <<php>> goes here)
+    
+    -controllers
+    -forums
+    -services  
+    -other
+    
+---var---
+Internal files for symfony to work properly.
+    
+    -chache/dev: symfony stores a lot of cache (just for the app)
+    -log: is the default place where symfony will try and put all the logging while it runs
+    
+---vendor---
+Contains all the third party libraries that are not specific to our application/business logic
+    -symfony framework is included in this folder too for example
+notes:
+    -we don't modify this folder directly
+    -if we are using Git (and we are). Don't ever commit the contents of it because it's managed by the composer
+    
+++files outside dirs++
+
+    • composer.json: defines all the requirements, all the external libraries of your project (under "require": { "
+        ○ Inside of it we can see various dependencies and requirements and also scripts.
+        ○ For example composer install will install all the dependencies in the require and require dev
+        ○ More so, the versions that were specified inside the requirements will be specifically installed.
+    • composer.lock: never modify directly and it includes:
+        ○ All the dependencies that were installed including their versions
+    • .env: used to pass some enviroment variables to your application
+    
+    
+Note: we won’t be using the index.php or kernel.php for quite some time . So we are leaving them alone for now, keep in mind that we will be always using the index.php (calling it)
+
